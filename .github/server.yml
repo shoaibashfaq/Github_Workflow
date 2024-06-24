@@ -7,4 +7,6 @@ jobs:
     runs-on:ubuntu-latest
     steps:
     - run: echo "Start of pipeline"
-    - run: 
+    - run: ls -la
+    - run: pwd
+    - run: echo "End of pipeline run"
