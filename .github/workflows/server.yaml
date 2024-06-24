@@ -8,5 +8,4 @@ jobs:
       - run: echo "Start of pipeline"
       - run: ls -la
       - run: pwd
-      - run: cd ../..; npm i
       - run: echo "End of pipeline run"
